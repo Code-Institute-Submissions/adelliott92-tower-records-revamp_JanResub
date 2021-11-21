@@ -1,3 +1,6 @@
 from django.shortcuts import render
+from .models import storeCategory, storeProduct
 
-# Create your views here.
+def catalog_products(request):
+    products = storeProduct.objects.all()
+    return render(request, 'catalog/homepage.html', {'products': products})
