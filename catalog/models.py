@@ -10,7 +10,7 @@ class storeCategory(models.Model):
         verbose_name_plural = 'Categories'
 
     def __str__(self):
-        return self.name
+        return self.category_Name
 
 class storeProduct(models.Model):
     category = models.ForeignKey(storeCategory, related_name='product', on_delete=models.CASCADE)
