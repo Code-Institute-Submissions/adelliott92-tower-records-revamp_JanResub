@@ -16,3 +16,18 @@
     font-family: 'Roboto', sans-serif;
     color: #000;
 }
+
+/* hero image - containter */
+#tower_records_heroimg{
+    background-image: url('../assets/img/hero-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tower_records_banner_text{
+    color: #fff;
+    background-color: #212529bb;
+    width: 100%;
+    padding: 10px;
+    font-weight: 400;
+}
