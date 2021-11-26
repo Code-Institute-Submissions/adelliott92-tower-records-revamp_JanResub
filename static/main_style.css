@@ -19,7 +19,7 @@
 
 /* hero image - containter */
 #tower_records_heroimg{
-    background-image: url('../assets/images/homepage/hero-image.jpg');
+    background-image: url('hero-image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
