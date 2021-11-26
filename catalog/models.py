@@ -34,4 +34,4 @@ class storeProduct(models.Model):
         return reverse('catalog:product_detail', args=[self.slug])
 
     def __str__(self):
-        return self.name
+        return self.product_title

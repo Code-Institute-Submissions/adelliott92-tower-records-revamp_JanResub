@@ -13,4 +13,29 @@
     </div>
 </main>
 
+<div class="album py-5">
+    <div class="container">
+        <div class="pb-3 h5"></div>
+       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5 g-3">
+
+        {% for product in products %}
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="img-fluid" src="{{ product.product_image.url }}" alt="Product Cover">
+
+                    <div class="card-body">
+                        <p class="card-text">
+                            <a href="{{ product.get_absolute_url }}" class="text-dark text-decoration-none">{{ product.product_title }}</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        {% endfor %}
+
+       </div> 
+    </div>
+</div>
+
 {% endblock %}
