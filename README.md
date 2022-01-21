@@ -28,6 +28,8 @@ You can visit the website by [clicking here](tower-records-revamp.herokuapp.com)
 <a name="features"></a>
 ## Features
 
+In admin panel you can add store products by type to e-commerce website.
+
 <a name="technologies"></a>
 ## Technologies Used
 
